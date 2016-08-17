@@ -1,0 +1,63 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("vk.com") {
+  /* Исправление аватарок */
+  .people_cell_img{border-radius: 0 !important;}
+  .page_list_module .thumb{border-radius: 0 !important;}
+  .page_list_module .cell_img {border-radius: 0 !important;}
+  .post_img {border-radius: 0 !important;}
+  .post_field_user_image {border-radius: 10% !important;}
+  img.fc_contact_photo {border-radius: 0 !important;}
+  .friends_photo_img { border-radius: 0 !important;}
+  .nim-peer .nim-peer--photo-w {border-radius: 0 !important;}
+  .nim-peer .nim-peer--photo > img {border-radius: 0 !important;}
+  .nim-peer.nim-peer_small .im_grid > img {border-radius: 0 !important;}
+  .nim-dialog.nim-dialog_classic .nim-dialog--photo .nim-peer .nim-peer--photo .im_grid > img::after, .nim-dialog.nim-dialog_classic .nim-dialog--photo .nim-peer .nim-peer--photo > img::after {
+    border-radius: 0 !important;}
+  .nim-peer .nim-peer--photo .im_grid > img::after, .nim-peer .nim-peer--photo > img::after {
+    border-radius: 0 !important;}
+  .nim-dialog.nim-dialog_classic .nim-dialog--photo .nim-peer .nim-peer--photo .im_grid > img, .nim-dialog.nim-dialog_classic .nim-dialog--photo .nim-peer .nim-peer--photo > img {
+    border-radius: 0 !important;}
+ 
+  .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img {
+    border-radius: 0 !important;}
+  .group_row_photo, .group_row_img {
+    border-radius: 0!important;}
+  .wall_module .reply_img {
+    border-radius: 0!important;}
+  .bp_img {border-radius: 0!important;}
+  .wall_module .copy_post_img {
+    border-radius: 0 !important;}
+  .ow_ava.ow_ava_small {
+    border-radius: 0 !important;}
+  
+  /* Исправление значков */
+  .online.mobile::after {background-image: url("#") !important;}
+  .online::after {
+    bottom: -3% !important;
+    right: -3% !important;}
+  .online::after {background-color: rgb(120, 170, 235) !important;}
+   .online.mobile::after {
+    height: 10px !important;
+    width: 6px !important;}
+  .friends_user_row .online::after {
+    bottom: -3% !important;
+    right: -3% !important;}
+  .friends_user_row .online.mobile::after {
+    height: 12px !important;
+    width: 7px !important;}
+  .slider.slider_size_1 .slider_slide {height: 4px !important;}
+  .friends_user_row .online.mobile::after {background-image: url("#") !important;}
+
+}
+
+/* Непрочитанные сообщения */
+  .nim-dialog.nim-dialog_unread-out.nim-dialog_muted:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread {
+    background: rgba(147, 173, 200, 0.2) none repeat scroll 0 0 !important;
+    border-radius: 0 !important;
+    height: 30px !important;
+    width: 430px !important;
+}
+  .nim-dialog.nim-dialog_classic.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread {
+    bottom: 10px !important;
+}
