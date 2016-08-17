@@ -10,25 +10,20 @@
 
   /* Исправление значков */
   .online.mobile::after{
-    background-image: url("#") !important;}
-  .online::after{
+    background-image: url("#") !important;
+    height: 10px !important;
+    width: 6px !important;}
+  .online::after, .friends_user_row .online::after{
     bottom: -3% !important;
     right: -3% !important;}
   .online::after{
     background-color: rgb(120, 170, 235) !important;}
-  .online.mobile::after{
-    height: 10px !important;
-    width: 6px !important;}
-  .friends_user_row .online::after{
-    bottom: -3% !important;
-    right: -3% !important;}
   .friends_user_row .online.mobile::after{
     height: 12px !important;
-    width: 7px !important;}
+    width: 7px !important;
+   background-image: url("#") !important;}
   .slider.slider_size_1 .slider_slide{
     height: 4px !important;}
-  .friends_user_row .online.mobile::after{
-    background-image: url("#") !important;}
 
 /* Непрочитанные сообщения */
   .nim-dialog.nim-dialog_unread-out.nim-dialog_muted:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread{
